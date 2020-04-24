@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body {font: 1.1em/1.5 sans-serif;
+    padding-top: 20px;
+}
+
+[class] {
+    background-color: lightgrey;
+    color:#000;
+    padding: 5px;
+}
+
+h1, h2 {
+    border-left: 15px solid crimson;
+    border-bottom: 3px solid crimson;
+}
+.main > a {
+    color: crimson;
+    text-decoration: none;
+}
+
+[href="###"] {
+    background-color: lightgrey;
+    padding: 3px 10px 3px
+}
+
+:visited{
+    color: #45817f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+:focus {
+    background-color: lemonchiffon;
+}
